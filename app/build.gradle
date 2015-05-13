@@ -16,6 +16,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        // Added debug clause - for why see "http://developer.android.com/tools/device.html"
+        debug {
+            debuggable true
+        }
     }
 }
 
